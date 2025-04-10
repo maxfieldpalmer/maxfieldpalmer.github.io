@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Maxfield Palmer
+title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Maxfield
-last_name: Palmer
+first_name: Shiung Wu
+last_name: Chien
 
 # Status emoji
 status:
-  icon: 
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,43 +20,47 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Bridge to PhD Student
+role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Center for Chemical Currencies of a Microbial Planet (C-CoMP)
-    url: https://ccomp-stc.org
+  - name: OpenAI
+    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:max.palmer54@gmail.com'
+    url: 'mailto:your-email@example.com'
     label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/instagram
+    url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/maxfield-palmer-1603561a8/
+    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=6viY0qMAAAAJ&hl=en&oi=ao
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0009-0008-4865-9273
+    url: https://orcid.org/
 
 interests:
-  - Marine Microbial Physiology
-  - Nutrient Limitation
-  - Omics
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
 education:
-  - area: B.Sc. Biology
-    institution: University of North Carolina at Chapel Hill
-    date_start: 2019-08-13
-    date_end: 2023-5-14
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      GPA: 3.19/4.0
-      
-      Courses included:
-      - Biological Oceanography (graduate level)
-      - Marine Phytoplankton
-      - Marine Science Undergraduate Research
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
   - area: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
@@ -80,16 +84,16 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Bridge to PhD Student
-    company_name: Center for Chemical Currencies of a Microbial Planet
-    company_url: 'https://ccomp-stc.org'
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
     company_logo: ''
-    date_start: 2023-09-01
+    date_start: 2021-01-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - figuring it out
-      - trying
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Backend Software Engineer
     company_name: X
