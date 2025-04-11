@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Bridge-to-PhD Student
+role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Center for Chemical Currencies of a Microbial Planet (C-CoMP)
-    url: https://ccomp-stc.org
+  - name: OpenAI
+    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:max.palmer54@gmail.com'
+    url: 'mailto:your-email@example.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -40,71 +40,90 @@ profiles:
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/maxfield-palmer-1603561a8/
+    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=6viY0qMAAAAJ&hl=en&oi=ao
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0009-0008-4865-9273
+    url: https://orcid.org/
 
 interests:
-  - Marine Microbial Physiology
-  - Nutrient Limitation
-  - 'Omics
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
 education:
-  - area: B.Sc. Biology
-    institution: University of North Carolina at Chapel Hill
-    date_start: 2019-08-13
-    date_end: 2023-5-14
+  - area: PhD Artificial Intelligence
+    institution: Stanford University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      GPA: 3.19/4.0
-      
-      Courses included:
-      - Biological Oceanography (graduate level)
-      - Marine Phytoplankton
-      - Marine Science Undergraduate Research
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-work:
-  - position: Bridge-to-PhD Student
-    company_name: Center for Chemical Currencies of a Microbial Planet
-    company_url: 'https://ccomp-stc.org'
-    company_logo: ''
-    date_start: 2023-09-01
-    date_end: ''
+  - area: MEng Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      Responsibilities:
-      - Conducts research related to microbial interspecific competition, community change, exometabolites, and bioinformatics.
-      - Attends weekly research meetings for topics related to bacterial carbon use efficiency, curated undergraduate research experiences (CUREs), phytoplankton exometabolites, and more.
-      - Works alongside a cohort of other Bridge-to-PhD fellows in professional development and on interdisciplinary research projects.
-  - position: Laboratory Technician
-    company_name: UNC Chapel Hill Institute of Marine Sciences
-    company_url: 'https://emes.unc.edu/institute-of-marine-sciences/'
-    company_logo: https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg
-    date_start: 2023-05-22
-    date_end: 2023-08-18
-    summary: |
-      Responsibilities:
-      - Field work and sample collection
-      - laboratory maintenance/upkeep
-      
+      GPA: 3.8/4.0
 
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+      
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Director of Cloud Infrastructure
+    company_name: GenCoin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
       - name: Python
         description: ''
-        percent: ''
+        percent: 80
         icon: code-bracket
-      - name: R
+      - name: Data Science
         description: ''
-        percent: ''
-        icon: code-bracket
-      - name: Algal Culture
+        percent: 100
+        icon: chart-bar
+      - name: SQL
         description: ''
-        percent: ''
-        icon: custom/flask.svg
+        percent: 40
+        icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -122,22 +141,46 @@ skills:
         percent: 80
         icon: camera
 
+languages:
+  - name: English
+    percent: 100
+  - name: Chinese
+    percent: 75
+  - name: Portuguese
+    percent: 25
+
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: UNC Dean's List
-    url: ''
-    date: 'Spring 2022, Fall 2022, Spring 2023'
-    awarder: UNC Office of University Registrar
-    icon: https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg
+  - title: Neural Networks and Deep Learning
+    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    date: '2023-11-25'
+    awarder: Coursera
+    icon: coursera
     summary: |
-      I achieved a spot on the Chapel Hill Deans's list the last 3 semesters that I was at Carolina. 
-  
+      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  - title: Blockchain Fundamentals
+    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    date: '2023-07-01'
+    awarder: edX
+    icon: edx
+    summary: |
+      Learned:
+      - Synthesize your own blockchain solutions
+      - Gain an in-depth understanding of the specific mechanics of Bitcoin
+      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  - title: 'Object-Oriented Programming in R'
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
+    date: '2023-01-21'
+    awarder: datacamp
+    icon: datacamp
+    summary: |
+      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
 
-Maxfield Palmer is a Bridge-to-PhD student working in the Dyhrman Microbial Oceanography group at Lamont Doherty Earth Observatory/Columbia University. Max's research interests include microbial responses to nutrient shifts in marine environments, marine microbial physiology, biogeochemistry, and effects of climate on marine environments.
-
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
