@@ -183,4 +183,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Maxfield Palmer is a Bridge-to-PhD student working in the Dyhrman Microbial Oceanography group at Lamont Doherty Earth Observatory/Columbia University. Max's research interests include microbial responses to nutrient shifts in marine environments, marine microbial physiology, biogeochemistry, and effects of climate on marine environments.
