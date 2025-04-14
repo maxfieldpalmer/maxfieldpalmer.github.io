@@ -12,3 +12,6 @@
   --color-primary-900: 49 46 129;
   --color-primary-950: 30 27 75;
 }
+body {
+  color: 238 242 255;
+}
