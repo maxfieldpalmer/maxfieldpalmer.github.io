@@ -13,7 +13,6 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      color: rgb(var(--color-primary-900))
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -21,6 +20,8 @@ sections:
         url: uploads/CV_MPalmer_04112025.pdf
     design:
       css_class: dark
+      body: 
+        color: rgb(var(--color-primary-900))
       background:
         color: black
         image:
