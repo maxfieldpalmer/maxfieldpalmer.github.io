@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       body: 
-        color: rgb(var(--color-primary-900))
+        color: white
       background:
         color: black
         image:
