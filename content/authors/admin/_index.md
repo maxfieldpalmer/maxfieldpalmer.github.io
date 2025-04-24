@@ -33,8 +33,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:max.palmer54@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
