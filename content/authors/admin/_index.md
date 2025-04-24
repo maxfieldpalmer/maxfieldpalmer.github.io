@@ -33,16 +33,12 @@ profiles:
   - icon: at-symbol
     url: 'mailto:max.palmer54@gmail.com'
     label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/maxfield-palmer-1603561a8
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=6viY0qMAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0008-4865-9273
 
 interests:
   - Artificial Intelligence
