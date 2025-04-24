@@ -41,9 +41,9 @@ profiles:
     url: https://orcid.org/0009-0008-4865-9273
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Phytoplankton physiology
+  - Biogeochemical cycling
+  - Microbial metabolism modeling
 
 education:
   - area: PhD Artificial Intelligence
