@@ -46,20 +46,15 @@ interests:
   - Microbial metabolism modeling
 
 education:
-  - area: B.Sc. Biology
+  - area: BSc Biology
     institution: University of North Carolina at Chapel Hill
-    date_start: 2019-08-13
-    date_end: 2023-5-14
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      GPA: 3.19/4.0
-      
-      Courses included:
-      - Biological Oceanography (graduate level)
-      - Marine Phytoplankton
-      - Marine Science Undergraduate Research
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
-      text: ''
-      url: ''
+      text: 'Read Thesis'
+      url: 'https://example.com'
   - area: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
