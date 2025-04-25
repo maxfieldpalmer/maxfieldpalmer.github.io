@@ -58,29 +58,28 @@ education:
       - Marine Phytoplankton
       - Marine Science Undergraduate Research
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Bridge-to-PhD Student
+    company_name: Center for Chemical Currencies of a Microbial Planet
+    company_url: 'https://ccomp-stc.org'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-09-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      Responsibilities:
+      - Conducts research related to microbial interspecific competition, community change, exometabolites, and bioinformatics.
+      - Attends weekly research meetings for topics related to bacterial carbon use efficiency, curated undergraduate research experiences (CUREs), phytoplankton exometabolites, and more.
+      - Works alongside a cohort of other Bridge-to-PhD fellows in professional development and on interdisciplinary research projects.
+  - position: Laboratory Technician
+    company_name: UNC Chapel Hill Institute of Marine Sciences
+    company_url: 'https://emes.unc.edu/institute-of-marine-sciences/'
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg
+    date_start: 2023-05-22
+    date_end: 2023-08-18
+    summary: |
+      Responsibilities:
+      - Field work and sample collection
+      - laboratory maintenance/upkeep
+      
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
