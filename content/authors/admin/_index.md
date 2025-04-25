@@ -48,8 +48,8 @@ interests:
 education:
   - area: BSc Biology
     institution: University of North Carolina at Chapel Hill
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2019-08-13
+    date_end: 2023-5-14
     summary: |
       GPA: 3.19/4.0
       
@@ -57,17 +57,11 @@ education:
       - Biological Oceanography (graduate level)
       - Marine Phytoplankton
       - Marine Science Undergraduate Research
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: ''
+    institution: ''
+    date_start: ''
+    date_end: ''
+    summary: ''
   - area: BSc Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
