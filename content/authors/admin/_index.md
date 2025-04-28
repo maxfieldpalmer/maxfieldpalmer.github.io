@@ -128,7 +128,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: UNC Chapel Hill Dean's List
-    date: '2023-4-11'
+    date: 2023-4-11
     awarder: Coursera
     icon: coursera
     summary: |
