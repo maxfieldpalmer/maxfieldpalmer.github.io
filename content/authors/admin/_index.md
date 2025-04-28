@@ -61,7 +61,7 @@ work:
   - position: Bridge-to-PhD Student
     company_name: Center for Chemical Currencies of a Microbial Planet
     company_url: 'https://ccomp-stc.org'
-    company_logo: ''
+    company_logo: 'https://ccomp-stc.org/wp-content/uploads/2021/09/C-Comp-Logo__Primary-Color-n.png'
     date_start: 2023-09-01
     date_end: ''
     summary: |
