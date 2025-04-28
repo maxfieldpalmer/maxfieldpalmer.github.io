@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       body: 
-        color: 
+        color: white
       background:
         color: black
         image:
