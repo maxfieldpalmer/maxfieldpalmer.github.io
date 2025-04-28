@@ -129,7 +129,7 @@ languages:
 awards:
   - title: UNC Chapel Hill Dean's List
     url: https://registrar.unc.edu/deans-list-degree-recipient-list/
-    date: '2023'
+    date: '2023-4-11'
     awarder: Coursera
     icon: coursera
     summary: |
