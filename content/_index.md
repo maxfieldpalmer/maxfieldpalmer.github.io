@@ -19,7 +19,7 @@ sections:
         text: Download CV
         url: uploads/CV_MPalmer_04112025.pdf
     design:
-      css_class: dark
+      css_class: light
       body: 
         color: white
       background:
