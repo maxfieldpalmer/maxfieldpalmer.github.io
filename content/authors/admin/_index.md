@@ -128,11 +128,11 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: UNC Chapel Hill Dean's List
-    date: 2023-04-11
-    awarder: Coursera
-    icon: coursera
+    date: 2023-05-14
+    awarder: UNC Office of University Registrar
+    icon: https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      I achieved a spot on the Chapel Hill Deans's list the last 3 semesters that I was at Carolina. 
 ---
 
 ## About Me
