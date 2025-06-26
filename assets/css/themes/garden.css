@@ -1,0 +1,13 @@
+:root {
+  --color-primary-50: 240 253 244;   /* Misty Mint */
+  --color-primary-100: 228 250 225;  /* Light Sage */
+  --color-primary-200: 255 242 219;  /* Pale Apricot */
+  --color-primary-300: 254 231 183;  /* Soft Goldenrod */
+  --color-primary-400: 187 247 208;  /* Fresh Grass */
+  --color-primary-500: 120 211 158;  /* Spring Fern */
+  --color-primary-600: 189 152 75;   /* Golden Olive */
+  --color-primary-700: 108 133 61;   /* Warm Moss */
+  --color-primary-800: 191 99 44;    /* Burnt Orange */
+  --color-primary-900: 67 80 53;     /* Forest Floor */
+  --color-primary-950: 44 34 22;     /* Rich Soil */
+}
