@@ -19,11 +19,7 @@ sections:
         text: Download CV
         url: uploads/CV_MPalmer_04112025.pdf
     design:
-      css_class: dark
-      body: 
-        color: white
       background:
-        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: IMG_1514.jpeg
