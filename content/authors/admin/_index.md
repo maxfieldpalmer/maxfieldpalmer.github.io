@@ -72,7 +72,7 @@ work:
   - position: Laboratory Technician
     company_name: UNC Chapel Hill Institute of Marine Sciences
     company_url: 'https://emes.unc.edu/institute-of-marine-sciences/'
-    company_logo: https://upload.wikimedia.org/wikipedia/commons/d/d7/North_Carolina_Tar_Heels_logo.svg
+    company_logo: assets/media/icons/custom/North_Carolina_Tar_Heels_logo
     date_start: 2023-05-22
     date_end: 2023-08-18
     summary: |
@@ -88,7 +88,7 @@ skills:
       - name: Algal Culturing
         description: ''
         percent: ''
-        icon: flask-conical
+        icon: custom/flask-conical
       - name: Coding (R/Python mainly)
         description: ''
         percent: ''
@@ -122,7 +122,7 @@ awards:
   - title: UNC Chapel Hill Dean's List
     date: 2023-05-14
     awarder: UNC Office of University Registrar
-    icon: North_Carolina_Tar_Hells_logo
+    icon: custom/North_Carolina_Tar_Hells_logo
     summary: |
       I achieved a spot on the Chapel Hill Deans's list the last 3 semesters that I was at Carolina. 
 ---
