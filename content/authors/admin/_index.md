@@ -85,15 +85,15 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Algal Culturing
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Coding (R/Python mainly)
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Field Sample Collection
         description: ''
         percent: 40
         icon: circle-stack

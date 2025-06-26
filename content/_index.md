@@ -37,11 +37,11 @@ sections:
       title: 'Research Focus Areas'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm currently a C-CoMP Bridge-to-PhD student in the Dyhrman Lab at Lamont-Doherty Earth Observatory in Palisades, NY. There, I work to understand phytoplankton competitive advantages under nutrient limitation, modeling diatom chemical currency secretion, and marine bacterial growth in response to aforementioned chemical currencies. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        This fall, I will be starting my PhD in the Proteocean Lab at the University of Southern California in the Marine and Environmental Biology section where my research will take a stronger focus on proteomics. 
         
-        Please reach out to collaborate 😃
+        If you think that it sounds like our research interests would mesh well, don't hesitate to reach out!
     design:
       columns: '1'
   - block: collection
