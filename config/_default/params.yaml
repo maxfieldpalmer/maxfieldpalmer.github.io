@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: garden.css
+  color: garden
 
 # SEO
 marketing:
