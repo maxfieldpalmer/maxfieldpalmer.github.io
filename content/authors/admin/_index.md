@@ -122,7 +122,7 @@ awards:
   - title: UNC Chapel Hill Dean's List
     date: 2023-05-14
     awarder: UNC Office of University Registrar
-    icon: custom/North_Carolina_Tar_Heels_logo
+    icon: "custom/North_Carolina_Tar_Heels_logo"
     summary: |
       I achieved a spot on the Chapel Hill Deans's list the last 3 semesters that I was at Carolina. 
 ---
