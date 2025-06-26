@@ -26,7 +26,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: IMG_7715.png
+          filename: IMG_1514.jpeg
           filters:
             brightness: 1.0
           size: cover
@@ -39,7 +39,7 @@ sections:
       text: |-
         I'm currently a C-CoMP Bridge-to-PhD student in the Dyhrman Lab at Lamont-Doherty Earth Observatory in Palisades, NY. There, I work to understand phytoplankton competitive advantages under nutrient limitation, modeling diatom chemical currency secretion, and marine bacterial growth in response to aforementioned chemical currencies. 
 
-        This fall, I will be starting my PhD in the Proteocean Lab at the University of Southern California in the Marine and Environmental Biology section where my research will take a stronger focus on proteomics. 
+        This fall, I will be starting my PhD in the Proteocean Lab at the University of Southern California in the Marine and Environmental Biology section where my research will take a stronger focus on proteomics and colimitation. 
         
         If you think that it sounds like our research interests would mesh well, don't hesitate to reach out!
     design:
