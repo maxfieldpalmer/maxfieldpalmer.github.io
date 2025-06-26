@@ -28,7 +28,6 @@ sections:
           size: cover
           position: center
           parallax: false
-          text_color_light: true
   - block: markdown
     content:
       title: 'Research Focus Areas'
