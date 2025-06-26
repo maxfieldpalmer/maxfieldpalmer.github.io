@@ -22,13 +22,12 @@ sections:
       background:
         image:
           # Add your image background to `assets/media/`.
-          filename: IMG_1514.jpeg
+          filename: IMG_7715.png
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: true
-          text_color_light: true
   - block: markdown
     content:
       title: 'Research Focus Areas'
