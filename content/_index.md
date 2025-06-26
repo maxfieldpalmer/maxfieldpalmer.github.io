@@ -27,7 +27,7 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: true
+          parallax: false
   - block: markdown
     content:
       title: 'Research Focus Areas'
