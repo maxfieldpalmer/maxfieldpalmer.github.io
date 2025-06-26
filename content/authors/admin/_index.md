@@ -88,7 +88,7 @@ skills:
       - name: Algal Culturing
         description: ''
         percent: ''
-        icon: 'flask-conical'
+        icon: flask-conical
       - name: Coding (R/Python mainly)
         description: ''
         percent: ''
@@ -122,7 +122,7 @@ awards:
   - title: UNC Chapel Hill Dean's List
     date: 2023-05-14
     awarder: UNC Office of University Registrar
-    icon: North_Carolina_Tar_Hells_logo.svg
+    icon: North_Carolina_Tar_Hells_logo
     summary: |
       I achieved a spot on the Chapel Hill Deans's list the last 3 semesters that I was at Carolina. 
 ---
