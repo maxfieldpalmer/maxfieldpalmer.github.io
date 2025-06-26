@@ -63,7 +63,7 @@ work:
     company_url: 'https://ccomp-stc.org'
     company_logo: 'https://ccomp-stc.org/wp-content/uploads/2021/09/C-Comp-Logo__Primary-Color-n.png'
     date_start: 2023-09-01
-    date_end: ''
+    date_end: '2025-07-25'
     summary: |
       Responsibilities:
       - Conducts research related to microbial interspecific competition, community change, exometabolites, and bioinformatics.
@@ -87,15 +87,15 @@ skills:
     items:
       - name: Algal Culturing
         description: ''
-        percent: 80
-        icon: code-bracket
+        percent: ''
+        icon: 'flask-conical'
       - name: Coding (R/Python mainly)
         description: ''
-        percent: 100
-        icon: chart-bar
+        percent: ''
+        icon: code-bracket
       - name: Field Sample Collection
         description: ''
-        percent: 40
+        percent: ''
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
