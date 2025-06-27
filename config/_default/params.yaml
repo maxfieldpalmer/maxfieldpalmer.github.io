@@ -7,7 +7,7 @@
 appearance:
   mode: system
   color: garden
-  theme_day: ocean
+  theme: ocean
 
 # SEO
 marketing:
