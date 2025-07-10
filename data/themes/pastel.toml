@@ -1,0 +1,17 @@
+# Theme metadata
+name = "Pastel"
+# Is theme light or dark?
+light = true
+# Primary
+primary = "#4bcae7"
+primary_light = "#78d7ed"
+primary_dark = "#82a014ff"
+# Menu
+menu_primary = "#78d7ed"
+menu_text = "#f7edd4"
+menu_text_active = "#fff"
+menu_title = "#f7edd4"
+# Home sections
+home_section_odd = "#ffdde8"
+home_section_even = "#ffe6ed"
+background = "#ffe6ed"
