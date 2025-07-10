@@ -1,8 +1,60 @@
+/* CUSTOM DARK MODE THEME FOR HUGO BLOX */
+/* Scope all styles to dark mode only */
 body.dark {
-  background-color: #111;
-  color: #ddd;
-}
+  /* === Backgrounds === */
+  --color-background: #ffe600;
+  --color-surface: #ece90f;
 
-body.dark a {
-  color: #ff6f61;
+  /* === Text Colors === */
+  --color-on-background: #e0e0e0;
+  --color-on-surface: #cccccc;
+  --color-muted: #999999;
+
+  /* === Primary Color (Links, Buttons) === */
+  --color-primary: #90caf9;              /* Soft blue */
+  --color-primary-contrast: #0d47a1;
+
+  /* === Secondary Accent Color === */
+  --color-secondary: #f48fb1;            /* Soft pink */
+  --color-secondary-contrast: #880e4f;
+
+  /* === Code Blocks === */
+  --color-code-background: #2e2e2e;
+  --color-code-text: #f1f1f1;
+
+  /* === Borders === */
+  --color-border: #333333;
+
+  /* === Alert / Message Colors === */
+  --color-info: #2196f3;
+  --color-warning: #ffb74d;
+  --color-error: #ef5350;
+  --color-success: #81c784;
+
+  /* === Optional Typography Overrides === */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-on-background);
+  }
+
+  a {
+    color: var(--color-primary);
+  }
+
+  a:hover {
+    color: lighten(var(--color-primary), 10%);
+  }
+
+  .btn {
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+  }
+
+  .btn:hover {
+    background-color: lighten(var(--color-primary), 5%);
+  }
+
+  pre, code {
+    background-color: var(--color-code-background);
+    color: var(--color-code-text);
+  }
 }
