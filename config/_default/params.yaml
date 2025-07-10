@@ -6,8 +6,11 @@
 # Appearance
 appearance:
   mode: system
-  color: pastel
+  color: garden
   theme_default: pastel
+
+style:
+  custom_css: ["scss/custom.scss"]
 
 # SEO
 marketing:
