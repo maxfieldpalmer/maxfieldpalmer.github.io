@@ -1,4 +1,4 @@
-name: Build posts.json
+name: build_posts.json
 
 on:
   push:
@@ -24,8 +24,15 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install deps
-        run: npm ci
+      - name: Install deps (use npm ci when lockfile exists)
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            echo "Lockfile found — running npm ci"
+            npm ci
+          else
+            echo "No lockfile — running npm install"
+            npm install
+          fi
 
       - name: Build posts.json
         run: npm run build-posts
