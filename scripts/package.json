@@ -6,6 +6,5 @@
     "build-posts": "node build-posts.js"
   },
   "dependencies": {
-    /* add real dependencies here, or leave empty */
   }
 }
