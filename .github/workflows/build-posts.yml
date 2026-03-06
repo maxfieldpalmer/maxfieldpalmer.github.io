@@ -23,8 +23,44 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Debug workspace
+        run: |
+          echo "PWD: $(pwd)"
+          echo "Repository files:"
+          ls -la
+          echo "package.json present?"; [ -f package.json ] && echo "yes" || echo "no"
+          echo "package-lock.json present?"; [ -f package-lock.json ] && echo "yes" || echo "no"
+          echo "---- end debug ----"
+
+      # If package.json is in a subdirectory, set a WORKDIR var or change steps to use working-directory.
+      # Optionally change WORKDIR: ./some/path
+      # - name: Change working directory
+      #   run: cd some/subdir
+
+      - name: Ensure package-lock.json exists (generate if missing)
+        run: |
+          if [ -f package-lock.json ]; then
+            echo "package-lock.json already exists"
+          else
+            echo "Generating package-lock.json (package-lock-only)"
+            npm install --package-lock-only
+          fi
+          echo "After step, lock file present?"; [ -f package-lock.json ] && echo "yes" || (echo "no" && exit 1)
+
+      - name: Commit package-lock.json if it was generated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add package-lock.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: add/update package-lock.json (CI generated)" || true
+            git push || echo "push failed (maybe token/permission issue)"
+          else
+            echo "No lockfile changes to commit"
+          fi
+
+      - name: Install dependencies (deterministic)
+        run: npm ci
 
       - name: build-posts.json
         run: npm run build-posts
@@ -34,7 +70,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add posts.json || true
-          # Only commit if there's a change
           if ! git diff --staged --quiet; then
             git commit -m "chore: rebuild posts.json"
             git push
