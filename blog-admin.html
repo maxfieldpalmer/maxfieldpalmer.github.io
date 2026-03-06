@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maxfield Palmer — Blog Admin</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- NAV (you can leave admin page brand linking to home) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Maxfield Palmer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul id="nav-menus" class="navbar-nav ms-auto"></ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ADMIN LOCK OVERLAY: shown until correct password entered -->
+  <div id="admin-lock" class="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="background: rgba(0,0,0,0.65); z-index:1050;">
+    <div class="card p-4" style="min-width:320px; max-width:95%;">
+      <h5 class="mb-3">Admin — sign in</h5>
+      <div class="mb-2">
+        <input id="admin-password-input" type="password" class="form-control" placeholder="Admin password">
+      </div>
+      <div class="d-flex justify-content-between">
+        <button id="admin-unlock-btn" class="btn btn-primary">Unlock</button>
+        <button id="admin-cancel-btn" class="btn btn-light" onclick="window.location='index.html'">Close</button>
+      </div>
+      <div id="admin-lock-msg" class="mt-2 small text-muted"></div>
+    </div>
+  </div>
+
+  <main class="container py-5" id="admin-main" style="display:none;">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1 class="mb-3">Blog / News — Admin</h1>
+
+        <!-- Search -->
+        <div class="mb-3">
+          <input id="search-input" class="form-control" placeholder="Search blog posts (title or content)..." />
+        </div>
+
+        <div id="active-filters" class="mb-3"></div>
+
+        <div id="posts-list"></div>
+        <div id="no-posts" class="alert alert-secondary">No posts yet.</div>
+      </div>
+
+      <aside class="col-lg-4">
+        <!-- Add Post form -->
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5>Add Post</h5>
+            <form id="add-post-form">
+              <div class="mb-2">
+                <label class="form-label">Title</label>
+                <input id="post-title" class="form-control" required>
+              </div>
+
+              <div class="mb-2">
+                <label class="form-label">Content (HTML allowed)</label>
+                <textarea id="post-content" class="form-control" rows="6" required></textarea>
+              </div>
+
+              <div class="mb-2">
+                <label class="form-label">Tags (comma separated)</label>
+                <input id="post-tags" class="form-control" placeholder="e.g. news, update, personal">
+              </div>
+
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Publish</button>
+              </div>
+            </form>
+            <small class="text-muted d-block mt-2">Posts saved locally in your browser's localStorage.</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h6>Admin tools</h6>
+            <div class="d-grid gap-2">
+              <button id="export-btn" class="btn btn-outline-secondary btn-sm">Export posts (JSON)</button>
+              <input id="import-file" type="file" accept=".json" class="form-control form-control-sm" />
+              <button id="import-btn" class="btn btn-outline-secondary btn-sm">Import from selected file</button>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+  </main>
+
+  <!-- Edit Modal (same as previous guidance) -->
+  <div class="modal fade" id="editPostModal" tabindex="-1" aria-labelledby="editPostModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <form id="edit-post-form">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editPostModalLabel">Edit Post</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <input type="hidden" id="edit-post-id" />
+
+            <div class="mb-3">
+              <label for="edit-post-title" class="form-label">Title</label>
+              <input id="edit-post-title" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+              <label for="edit-post-content" class="form-label">Content (HTML allowed)</label>
+              <textarea id="edit-post-content" class="form-control" rows="10" required></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="edit-post-tags" class="form-label">Tags (comma separated)</label>
+              <input id="edit-post-tags" class="form-control" />
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      initNav(); // same nav (no admin link)
+
+      // admin unlock logic
+      const unlockBtn = document.getElementById('admin-unlock-btn');
+      const cancelBtn = document.getElementById('admin-cancel-btn');
+      const passInput = document.getElementById('admin-password-input');
+      const lockMsg = document.getElementById('admin-lock-msg');
+
+      unlockBtn.addEventListener('click', async () => {
+        const pw = passInput.value || '';
+        lockMsg.textContent = 'Checking...';
+        const ok = await AdminAuth.checkPassword(pw);
+        if (ok) {
+          // reveal admin UI
+          document.getElementById('admin-lock').style.display = 'none';
+          document.getElementById('admin-main').style.display = '';
+          BlogApp.init({ readOnly: false }); // admin mode shows edit buttons
+          lockMsg.textContent = '';
+        } else {
+          lockMsg.textContent = 'Incorrect password.';
+          passInput.value = '';
+        }
+      });
+
+      passInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') unlockBtn.click(); });
+    });
+  </script>
+</body>
+</html>

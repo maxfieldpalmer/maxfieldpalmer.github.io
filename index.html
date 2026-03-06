@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maxfield Palmer — Home</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Home</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <!-- nav menus inserted by script -->
+        <ul id="nav-menus" class="navbar-nav ms-auto"></ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="container py-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1 class="mb-3">Welcome — I'm Maxfield Palmer</h1>
+        <p class="lead">This is the home page. Below you'll see the most recent blog post.</p>
+
+        <section id="latest-post" class="mt-4">
+          <!-- Most recent blog post injected by script -->
+          <div class="card" id="latest-card" style="display:none;">
+            <div class="card-body">
+              <h3 class="card-title" id="latest-title"></h3>
+              <p class="text-muted small" id="latest-date"></p>
+              <p id="latest-excerpt"></p>
+              <a id="latest-readmore" class="btn btn-sm btn-primary" href="blog.html">Read more &rarr;</a>
+            </div>
+          </div>
+
+          <div id="no-posts" class="alert alert-secondary">No blog posts yet — go to <a href="blog.html">Blog/News</a> to add one.</div>
+        </section>
+      </div>
+
+      <aside class="col-lg-4">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5>About</h5>
+            <p>Short blurb or contact link. Link to <a href="about.html">About page</a>.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Bootstrap bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Site JS -->
+  <script src="assets/js/site.js"></script>
+  <script>
+    // On the home page we show most recent post
+    document.addEventListener('DOMContentLoaded', () => {
+      initNav(); // builds navbar
+      showLatestPostOnHome();
+    });
+  </script>
+</body>
+</html>

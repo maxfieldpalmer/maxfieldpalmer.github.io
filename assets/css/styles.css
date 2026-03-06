@@ -1,0 +1,14 @@
+/* custom styles */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #fbfbfb;
+}
+
+.navbar-brand { font-size: 1.05rem; }
+.card { border-radius: 0.65rem; }
+#posts-list .card + .card { margin-top: 1rem; }
+
+/* small mobile tweak for search input */
+@media (max-width: 576px) {
+  #search-input { font-size: 0.95rem; }
+}
