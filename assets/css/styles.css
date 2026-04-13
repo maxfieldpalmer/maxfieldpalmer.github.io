@@ -367,7 +367,12 @@ body {
   max-width: 900px;
   margin: 0 auto 3rem;
 }
-
+.cv-object {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
 /* ─── INDEX LATEST POST CARD ─── */
 .latest-post {
   max-width: 900px;
