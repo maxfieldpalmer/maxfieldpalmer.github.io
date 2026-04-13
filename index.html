@@ -1,78 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Maxfield Palmer — Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maxfield Palmer</title>
 
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles -->
   <link rel="stylesheet" href="assets/css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Home</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-              aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<!-- NAV -->
+<div id="navbar" class="topnav">
+  <div class="nav-top">
+    <a href="index.html" class="nav-brand">Maxfield Palmer</a>
 
-      <div class="collapse navbar-collapse" id="mainNavbar">
-        <!-- nav menus inserted by script -->
-        <ul id="nav-menus" class="navbar-nav ms-auto"></ul>
-      </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+
+  <div class="nav-links-container" id="mobile-nav">
+    <a href="index.html" class="nav-links active">Home</a>
+    <a href="blog.html" class="nav-links">Blog</a>
+    <a href="#" class="nav-links">News</a>
+    <a href="contact.html" class="nav-links">Contact</a>
+    <a href="#" class="nav-links">About</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<div id="bg-fade" class="bg-img">
+    <h1 class="photo-name">Maxfield Palmer</h1>
+    <h3 class="photo-role">PhD Student at University of Southern California</h3>
+    <h3 class="photo-dept">Marine and Environmental Biology</h3>
+</div>
+
+<!-- CONTENT -->
+<div class="main-content index-title">
+  <div class="section-header">
+    <h1>Hi My name is Max!</h1>
+  </div>
+  <div class="section-header">
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+  </div>
+  <div class="section-header">
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+  </div>
+  <div class="section-header">
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+  </div>
+  <div class = "section-header">
+     <div class="section-content">
+      <p> I'm a PhD student in the Marine and Environmental Biology section at the University of Southern California.
+        I work in the Proteocean Lab with Dr. Noelle Held on understanding how colimitation influences marine microbial physiology.
+       Working in her lab, I focus on marine heterotroph physiology, marine eukaryotic phyisology, community response to nutrient limitation, and marine metaproteomics. </p>
     </div>
-  </nav>
+  </div>
+  <div class="section-header">
+    <h2>Latest post</h2>
+    <a href="blog.html">All posts →</a>
+  </div>
 
-  <!-- MAIN -->
-  <main class="container py-5">
-    <div class="row">
-      <div class="col-lg-8">
-        <h1 class="mb-3">Welcome — I'm Maxfield Palmer</h1>
-        <p class="lead">This is the home page. Below you'll see the most recent blog post.</p>
+ <!--<hr class="divider" />-->
 
-        <section id="latest-post" class="mt-4">
-          <!-- Most recent blog post injected by script -->
-          <div class="card" id="latest-card" style="display:none;">
-            <div class="card-body">
-              <h3 class="card-title" id="latest-title"></h3>
-              <p class="text-muted small" id="latest-date"></p>
-              <p id="latest-excerpt"></p>
-              <a id="latest-readmore" class="btn btn-sm btn-primary" href="blog.html">Read more &rarr;</a>
-            </div>
-          </div>
-
-          <div id="no-posts" class="alert alert-secondary">No blog posts yet — go to <a href="blog.html">Blog/News</a> to add one.</div>
-        </section>
+  <div class="latest-post">
+    <a class="post-card" id="latest-card" href="#">
+      <div class="post-card-image">
+        <img id="latest-img" src="" alt="">
       </div>
 
-      <aside class="col-lg-4">
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5>About</h5>
-            <p>Short blurb or contact link. Link to <a href="about.html">About page</a>.</p>
-          </div>
+      <div class="post-card-body">
+        <div class="post-meta">
+          <span class="post-tag" id="latest-tag"></span>
+          <span class="post-date" id="latest-date"></span>
         </div>
-      </aside>
-    </div>
-  </main>
 
-  <!-- Bootstrap bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <h3 id="latest-title"></h3>
+        <p id="latest-excerpt"></p>
 
-  <!-- Site JS -->
-  <script src="assets/js/site.js"></script>
-  <script>
-    // On the home page we show most recent post
-    document.addEventListener('DOMContentLoaded', () => {
-      initNav(); // builds navbar
-      showLatestPostOnHome();
-    });
-  </script>
+        <span class="read-more">Read post</span>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+<script src="blog.js"></script>
+<script src="page.js"></script>
+
+
+<footer class ="footer_index">
+  <small style="width: 100%;">Copyright © Maxfield Palmer, 2026</small>
+  <small>
+  <a class ="footer-nav" href="mailto:max.palmer54@gmail.com">Send me an email</a>
+    </small>
+</footer>
+
 </body>
 </html>
