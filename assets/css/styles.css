@@ -130,7 +130,7 @@ body {
 
 /* ─── BACKGROUND IMAGE ─── */
 .bg-img {
-  background-image: url("../assets/img/beach.jpeg");
+  background-image: url("../img/beach.jpeg");
   min-height: 550px;
   width: 100%;
   background-position: center;
