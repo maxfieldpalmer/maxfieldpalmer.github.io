@@ -227,7 +227,7 @@ body {
   font-size: clamp(2rem, 5vw, 3rem);
   position: absolute;
   color: white;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: Georgia, 'Times New Roman', Times, serif;
