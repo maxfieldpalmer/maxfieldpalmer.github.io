@@ -366,6 +366,7 @@ body {
   margin: 0 auto 0;
 }
 
+
 .intro-section {
   display: flex;
   align-items: flex-start;
@@ -373,8 +374,8 @@ body {
 }
 
 .section-image {
-  width: 180px;
-  height: 180px;
+  width: 30vw;
+  height: 35vh;
   object-fit: cover;
   object-position: center;
   flex-shrink: 0;
