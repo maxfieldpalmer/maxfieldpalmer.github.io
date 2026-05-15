@@ -366,6 +366,21 @@ body {
   margin: 0 auto 0;
 }
 
+.intro-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.section-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+
 .divider {
   border: none;
   border-top: 1px solid var(--rule);
