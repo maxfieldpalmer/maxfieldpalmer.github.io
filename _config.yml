@@ -1,23 +1,23 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
+name: "Maxfield Palmer"
+title: "PhD Student in Marine and Environmental Biology"
+institution: "University of Southern California"
+email: maxapalm@usc.edu
 photo: headshot.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
+  google_scholar: "https://scholar.google.com/citations?user=6viY0qMAAAAJ&hl=en&oi=ao"
+  github: ""
+  researchgate: ""
   orcid: ""
   twitter: ""
   linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf"
+  cv: "papers/cv_palmer_10152026.pdf"  # e.g., "papers/cv.pdf"
 
 # ============================================================
 # STEP 3: Site Settings
@@ -25,7 +25,7 @@ links:
 accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
 dark_mode: true              # set to false to disable dark mode entirely
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Academic webpage of Maxfield Palmer"
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
@@ -48,11 +48,11 @@ analytics:
 # navbar text without changing the URL.
 nav_pages:
   - name: about
-  - name: publications
-  - name: talks
+ # - name: publications
+ # - name: talks
   - name: research
-  - name: software
-  - name: team
+ # - name: software
+ # - name: team
   - name: teaching
   - name: blog
 
@@ -62,8 +62,8 @@ nav_pages:
 # Your name is bolded in the publication list. Write it exactly as it
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
-  last_name: Feynman
-  first_name: ["R. P.", "R."]
+  last_name: Palmer
+  first_name: ["M. A.", "M."]
   style: citesty
   locale: en
   source: /assets/
