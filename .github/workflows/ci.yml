@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     strategy:
       matrix:
         # Deployment uses 4.0; 3.4 is kept so local setups on the previous
