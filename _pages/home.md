@@ -16,12 +16,11 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-
+Nutrient co-limitation is a quantifyable measure of microbial growth and has been shown to defy Liebig's law, the idea that the least abundant nutrient is the sole limiting factor of growth.
+My work focuses on the proteomic expression of co-limitation across microbes, aiming to establish specific markers of co-limitation physiology for both marine heterotrophs and marine autotrophs. I also work on the San Pedro Ocean Time-series collecting metaproteomic data
+to evaluate how metaprotoemes in open-ocean proxies change with seasonality. 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
+#<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
 <p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
 </div>
 
@@ -41,8 +40,5 @@ Research in theoretical physics helps us to make predictions about how the unive
 {% endif %}
 
 ## About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I grew up on the coast of Oregon and in Kentucky before going to North Carolina for my undergraduate degree. I always had a massive love for
+the ocean and 
