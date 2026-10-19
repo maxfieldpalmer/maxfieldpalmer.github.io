@@ -19,15 +19,15 @@ permalink: /
 Nutrient co-limitation is a quantifyable measure of microbial growth and has been shown to defy Liebig's law, the idea that the least abundant nutrient is the sole limiting factor of growth.
 My work focuses on the proteomic expression of co-limitation across microbes, aiming to establish specific markers of co-limitation physiology for both marine heterotrophs and marine autotrophs. I also work on the San Pedro Ocean Time-series collecting metaproteomic data
 to evaluate how metaprotoemes in open-ocean proxies change with seasonality. 
-<div class="callout callout-success" markdown="0">
-#<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
+<!-- <div class="callout callout-success" markdown="0">
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
 <p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
+</div> -->
 
-<div class="banner-frame" markdown="0">
+<!-- <div class="banner-frame" markdown="0">
 <img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
 <div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
+</div> -->
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
