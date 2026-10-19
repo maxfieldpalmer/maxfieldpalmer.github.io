@@ -24,7 +24,7 @@ to evaluate how metaprotoemes in open-ocean proxies change with seasonality.
 I grew up on the coast of Oregon and in Kentucky before going to North Carolina for my undergraduate degree. I always had a massive love for
 the ocean and 
 
-{% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
+<!-- {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
 ## Selected publications
 
@@ -32,5 +32,5 @@ the ocean and
 {{ selected }}
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
 </div>
-{% endif %}
+{% endif %} -->
 
