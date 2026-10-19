@@ -29,4 +29,8 @@ the ocean and always aim to foster my curiosity of the marine realm in ways that
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
 </div>
 {% endif %} -->
-
+<img
+  src="{{ '/images/beach.jpeg' | relative_url }}"
+  alt="a photo of the beach"
+  style="display: block; width: 100%; max-width: 100%; height: auto; margin: 1.5rem 0;"
+>
