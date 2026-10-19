@@ -16,11 +16,7 @@ Nutrient co-limitation is a quantifyable measure of microbial growth and has bee
 My work focuses on the proteomic expression of co-limitation across microbes, aiming to establish specific markers of co-limitation physiology for both marine heterotrophs and marine autotrophs. I also work on the San Pedro Ocean Time-series collecting metaproteomic data
 to evaluate how metaprotoemes in open-ocean proxies change with seasonality. 
 
-<img
-  src="{{ '/images/beach.jpeg' | relative_url }}"
-  alt="a photo of the beach"
-  style="display: block; width: 100%; max-width: 100%; height: auto; margin: 1.5rem 0;"
->
+<img src="{{ '/images/beach.jpeg' | relative_url }}" alt="Photo of the beach" style="display:block;max-width:100%;height:auto;margin:1.5rem 0;">
 
 ## About me
 I grew up on the coast of Oregon and in Kentucky before going to North Carolina for my undergraduate degree. I have always had a massive love for
